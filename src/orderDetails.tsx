@@ -16,13 +16,13 @@ export class OrderDetails {
             </h3>
             <div className="p-3">
                 <table className="table table-sm table-striped">
-                    <thread>
+                    <thead>
                         <tr>
                             <th>Ilość</th><th>Produkt</th>
-                            <th className="target-right">Cena</th>
-                            <th className="target-right">Wartość</th>
+                            <th className="text-right">Cena</th>
+                            <th className="text-right">Wartość</th>
                         </tr>
-                    </thread>
+                    </thead>
                     <tbody>
                         {this.props.order.orderLines.map(line=>
                             <tr>

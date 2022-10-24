@@ -1,11 +1,12 @@
 ## Webapp101
 
-My first fullstack webapp using TypeScript and node.js
+My first fullstack webapp using TypeScript and node.js. App is based on project from "Essential TypeScript 4: From Beginner to Pro" by Adam Freeman.
 
 ## Requirements
 
 * Node 8
 * Git
+* Docker(optionally)
 
 ## Common setup
 
